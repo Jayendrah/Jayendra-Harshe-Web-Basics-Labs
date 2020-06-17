@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+<p>The result for compound interest is:</p>
+<p id = "demo"></p>
+<script>
+function myFuntion(p,r,n){
+   var a=(1+(r/100));
+   var b=Math.pow(a,n);
+   return [(p*b)-p];
+}
+document.getElementById("demo").innerHTML=myFuntion(10,10,10);
+</script>
+</body>
+</html>

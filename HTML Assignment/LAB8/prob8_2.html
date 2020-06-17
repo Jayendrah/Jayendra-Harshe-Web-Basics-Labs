@@ -1,0 +1,89 @@
+<html>
+  <head>
+    <title>form</title>
+  </head>
+  <body>
+    <form action="xyz.html" method="post">
+      <table border="1px" style="background-color: aqua;">
+        <tr>
+          <td>Name:<span style="color: red;">*</span></td>
+          <td><input type="text" maxlength="15" required /></td>
+        </tr>
+        <tr>
+          <td>Password:<span style="color: red;">*</span></td>
+          <td><input type="password" maxlength="15" required /></td>
+        </tr>
+        <tr></tr>
+        <tr>
+          <td>Phone Number:<span style="color: red;">*</span></td>
+          <td><input type="tel" maxlength="10" required /></td>
+        </tr>
+        <tr>
+          <td>Gender:<span style="color: red;">*</span></td>
+          <td>
+            <input type="radio" name="gender" value="male" />M
+            &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="gender" value="female" />F<br />
+          </td>
+        </tr>
+
+        <tr>
+          <td>Date of Birth:<span style="color: red;">*</span></td>
+          <td><input type="date" required /></td>
+        </tr>
+        <tr>
+          <td>Email:<span style="color: red;">*</span></td>
+          <td><input type="email" required /></td>
+        </tr>
+
+        <tr></tr>
+        <tr>
+          <td>Highest Qualification:<span style="color: red;">*</span></td>
+          <td>
+            <select required>
+              <option value="none" selected disabled hidden>
+                Select an Option
+              </option>
+              <option>B.tec</option>
+              <option>M.tech</option>
+              <option>MBa</option>
+              <option>MCa</option>
+              <option>Msc</option>
+              <option>Ma</option>
+              <option>Bsc</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Courses Intrested in:<span style="color: red;">*</span></td>
+          <td>
+            <input type="checkbox" value="HTML5" />HTML5&nbsp;
+            <input type="checkbox" value="JAVA" />JAVA&nbsp;
+            <input type="checkbox" value="CSS3" />CSS3&nbsp;
+            <input type="checkbox" value="Angular" />Angular&nbsp;
+            <input type="checkbox" value="JQuery" />JQuery
+          </td>
+        </tr>
+        <tr>
+          <td>Comments:(Mention external Certifications if any)</td>
+          <td><textarea></textarea></td>
+        </tr>
+        <tr>
+          <td>
+            Upload degree/External certificates:<span style="color: red;"
+              >*</span
+            >
+          </td>
+          <td><input type="file" id="myFile" name="filename" /></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <button type="Submit" value="Submit">Submit Information</button>&nbsp; &nbsp;
+            <button type="reset" value="reset" name="Clear">Clear</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+    </head>
+    <body>
+        <p>The date will be shown below:</p>
+        <p id="demo"></p>
+        
+        
+        <script>
+        var d=new Date();
+        
+
+        document.getElementById("demo").innerHTML=d.getDate();
+        
+        if(d.getTime()>0||d.getTime<12){
+            document.write("Good Morning");
+        }
+        else if(d.getTime()>12||d.getTime<17){
+            document.write("Good Noon");
+        }
+        else{
+            document.write("Good Evening");
+        }
+       
+        </script>
+    </body>
+</html>

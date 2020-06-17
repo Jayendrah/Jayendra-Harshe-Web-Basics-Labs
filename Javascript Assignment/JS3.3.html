@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+    <head>
+    </head>
+    <body>
+    <p>The substring of the string is given below:</p>
+    <p id="demo"></p>
+    <p>Upper Case of the string is given below:</p>
+     <p id="demo1"></p> 
+     <p>Lower Case of the string is given below:</p>
+     <p id="demo2"></p>     
+        <script>
+        var string="University at Capgemini"
+       function subString(m,n){
+            return string.substr(m,n);
+              }
+       function stoupperCase(){
+        return string.toUpperCase();
+       }
+        function stolowerCase(){
+        return string.toLowerCase();
+       }
+         var res = subString(6,11);
+        document.getElementById("demo").innerHTML=res;
+        
+        var res1=stoupperCase();
+          document.getElementById("demo1").innerHTML=res1;
+          var res2=stolowerCase();
+          document.getElementById("demo2").innerHTML=res2;
+
+        </script>
+       
+    </body>
+    </html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table, th, td{
+        border: 1px solid black;  
+        background-color: skyblue;
+        font-family: 'Times New Roman', Times, serif;
+    }
+</style>
+<body>
+    <table>
+        <tr>
+            <th style="width: 5cm;">Name</th>
+            <td style="width: 5cm;"><input type="text" size="20" tabindex="3"></td>
+        </tr>
+        <tr>
+            <th style="width: 5cm;">Employee Code</th>
+            <td style="width: 5cm;"><input type="text" size="4"></td>
+        </tr>
+        <tr>
+            <th style="width: 5cm;">Department</th>
+            <td><input type="radio" name="dept">Admin<br>
+            <input type="radio" name="dept">HR<br>
+            <input type="radio" name="dept">Technical<br>
+            <input type="radio" name="dept">Accounts</td>
+        </tr>
+        <tr>
+            <th>Date of Joining</th>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <th>Address</th>
+            <td><textarea name="addr" rows="8" cols="40"></textarea></td>
+        </tr>
+        <tr>
+            <th>Training Programs attended</th>
+            <td><input type="checkbox">HTML<br>
+                <input type="checkbox">Java<br>
+                <input type="checkbox">Client/Server<br>
+                <input type="checkbox">.NET
+            </td>
+        </tr>
+        <tr>
+            <th>Training program need to attend</th>
+            <td>
+                 <select name="pref">
+                 <option value="js">Javascript</option>
+                 <option value="ag">Angular</option>
+                 <option value="sp">Spring</option>
+                 </select>
+           </td>
+        </tr>
+        <tr>
+            <th>Send information at</th>
+            <td><a href="mailto: empinfo@capgemini.com">empinfo@capgemini.com</a></td>
+        </tr>
+
+    </table>
+    
+</body>
+</html>

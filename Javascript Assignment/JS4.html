@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+<h1>List of Employees</h1>
+<h1>----------------------</h1>
+<p id="demo"></p>
+<script>
+var Employees = ["A", "B", "C", "D","E"];
+var len=Employees.length;
+var text, i;
+text = "<ol>";
+for (i = 0; i < len; i++) {
+  text += "<li>" + Employees[i] + "</li>";
+}
+text += "</ol>";
+document.getElementById("demo").innerHTML = text;
+</script>
+</body>
+</html>

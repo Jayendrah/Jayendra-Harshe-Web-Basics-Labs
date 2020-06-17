@@ -1,0 +1,28 @@
+
+            *{
+                background-color: aqua;
+            }
+            h1{
+                color: aquamarine;
+            }
+            div{
+                background-color: bisque;
+            }
+            p{
+                color: blue;
+            }
+            #p1{
+                background-color: chocolate;
+            }
+            #p2{
+                font-style: italic;
+            }
+            #d1{
+                background-color: blueviolet;
+            }
+.d{
+    font-style: oblique;
+}
+.p{
+    text-align: center;
+}
